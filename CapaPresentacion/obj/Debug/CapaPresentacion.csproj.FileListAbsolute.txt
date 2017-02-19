@@ -21,3 +21,6 @@ C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresent
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmIngreso.resources
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Ingreso.resources
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaProveedor_Ingreso.resources
+C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVenta.resources
+C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaArticulo_Venta.resources
+C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVistaCliente_Venta.resources

@@ -42,6 +42,17 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbIdpresentacion = new System.Windows.Forms.ComboBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnBuscarCategoria = new System.Windows.Forms.Button();
+            this.txtCategoria = new System.Windows.Forms.TextBox();
+            this.txtIdcategoria = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnCargar = new System.Windows.Forms.Button();
+            this.pxImagen = new System.Windows.Forms.PictureBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -55,24 +66,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.errorIcono = new System.Windows.Forms.ErrorProvider(this.components);
             this.ttMensaje = new System.Windows.Forms.ToolTip(this.components);
-            this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.btnCargar = new System.Windows.Forms.Button();
-            this.btnLimpiar = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.txtIdcategoria = new System.Windows.Forms.TextBox();
-            this.txtCategoria = new System.Windows.Forms.TextBox();
-            this.btnBuscarCategoria = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.cbIdpresentacion = new System.Windows.Forms.ComboBox();
-            this.pxImagen = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataListado)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorIcono)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pxImagen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorIcono)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -240,6 +240,109 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Artículos";
             // 
+            // cbIdpresentacion
+            // 
+            this.cbIdpresentacion.FormattingEnabled = true;
+            this.cbIdpresentacion.Location = new System.Drawing.Point(600, 87);
+            this.cbIdpresentacion.Name = "cbIdpresentacion";
+            this.cbIdpresentacion.Size = new System.Drawing.Size(146, 21);
+            this.cbIdpresentacion.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(524, 95);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 13);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Presentacion :";
+            // 
+            // btnBuscarCategoria
+            // 
+            this.btnBuscarCategoria.Location = new System.Drawing.Point(752, 45);
+            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
+            this.btnBuscarCategoria.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscarCategoria.TabIndex = 18;
+            this.btnBuscarCategoria.Text = "Buscar";
+            this.btnBuscarCategoria.UseVisualStyleBackColor = true;
+            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
+            // 
+            // txtCategoria
+            // 
+            this.txtCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtCategoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCategoria.Location = new System.Drawing.Point(588, 47);
+            this.txtCategoria.Name = "txtCategoria";
+            this.txtCategoria.Size = new System.Drawing.Size(158, 20);
+            this.txtCategoria.TabIndex = 17;
+            // 
+            // txtIdcategoria
+            // 
+            this.txtIdcategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtIdcategoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtIdcategoria.Location = new System.Drawing.Point(588, 19);
+            this.txtIdcategoria.Name = "txtIdcategoria";
+            this.txtIdcategoria.Size = new System.Drawing.Size(84, 20);
+            this.txtIdcategoria.TabIndex = 16;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(521, 50);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Categoria :";
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(738, 227);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(81, 73);
+            this.btnLimpiar.TabIndex = 14;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnCargar
+            // 
+            this.btnCargar.Location = new System.Drawing.Point(738, 151);
+            this.btnCargar.Name = "btnCargar";
+            this.btnCargar.Size = new System.Drawing.Size(81, 73);
+            this.btnCargar.TabIndex = 13;
+            this.btnCargar.Text = "Cargar";
+            this.btnCargar.UseVisualStyleBackColor = true;
+            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
+            // 
+            // pxImagen
+            // 
+            this.pxImagen.BackgroundImage = global::CapaPresentacion.Properties.Resources.file;
+            this.pxImagen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pxImagen.Location = new System.Drawing.Point(524, 151);
+            this.pxImagen.Name = "pxImagen";
+            this.pxImagen.Size = new System.Drawing.Size(194, 149);
+            this.pxImagen.TabIndex = 12;
+            this.pxImagen.TabStop = false;
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.txtCodigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCodigo.Location = new System.Drawing.Point(131, 80);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(307, 20);
+            this.txtCodigo.TabIndex = 11;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(24, 82);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Codigo de Venta";
+            // 
             // btnCancelar
             // 
             this.btnCancelar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -362,109 +465,6 @@
             // 
             this.ttMensaje.IsBalloon = true;
             // 
-            // txtCodigo
-            // 
-            this.txtCodigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txtCodigo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCodigo.Location = new System.Drawing.Point(131, 80);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(307, 20);
-            this.txtCodigo.TabIndex = 11;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(24, 82);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Codigo de Venta";
-            // 
-            // btnCargar
-            // 
-            this.btnCargar.Location = new System.Drawing.Point(738, 151);
-            this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(81, 73);
-            this.btnCargar.TabIndex = 13;
-            this.btnCargar.Text = "Cargar";
-            this.btnCargar.UseVisualStyleBackColor = true;
-            this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
-            // 
-            // btnLimpiar
-            // 
-            this.btnLimpiar.Location = new System.Drawing.Point(738, 227);
-            this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(81, 73);
-            this.btnLimpiar.TabIndex = 14;
-            this.btnLimpiar.Text = "Limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
-            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(521, 50);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Categoria :";
-            // 
-            // txtIdcategoria
-            // 
-            this.txtIdcategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txtIdcategoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtIdcategoria.Location = new System.Drawing.Point(588, 19);
-            this.txtIdcategoria.Name = "txtIdcategoria";
-            this.txtIdcategoria.Size = new System.Drawing.Size(84, 20);
-            this.txtIdcategoria.TabIndex = 16;
-            // 
-            // txtCategoria
-            // 
-            this.txtCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.txtCategoria.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCategoria.Location = new System.Drawing.Point(588, 47);
-            this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(158, 20);
-            this.txtCategoria.TabIndex = 17;
-            // 
-            // btnBuscarCategoria
-            // 
-            this.btnBuscarCategoria.Location = new System.Drawing.Point(752, 45);
-            this.btnBuscarCategoria.Name = "btnBuscarCategoria";
-            this.btnBuscarCategoria.Size = new System.Drawing.Size(75, 23);
-            this.btnBuscarCategoria.TabIndex = 18;
-            this.btnBuscarCategoria.Text = "Buscar";
-            this.btnBuscarCategoria.UseVisualStyleBackColor = true;
-            this.btnBuscarCategoria.Click += new System.EventHandler(this.btnBuscarCategoria_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(524, 95);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 13);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Presentacion :";
-            // 
-            // cbIdpresentacion
-            // 
-            this.cbIdpresentacion.FormattingEnabled = true;
-            this.cbIdpresentacion.Location = new System.Drawing.Point(600, 87);
-            this.cbIdpresentacion.Name = "cbIdpresentacion";
-            this.cbIdpresentacion.Size = new System.Drawing.Size(146, 21);
-            this.cbIdpresentacion.TabIndex = 20;
-            // 
-            // pxImagen
-            // 
-            this.pxImagen.BackgroundImage = global::CapaPresentacion.Properties.Resources.file;
-            this.pxImagen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pxImagen.Location = new System.Drawing.Point(524, 151);
-            this.pxImagen.Name = "pxImagen";
-            this.pxImagen.Size = new System.Drawing.Size(194, 149);
-            this.pxImagen.TabIndex = 12;
-            this.pxImagen.TabStop = false;
-            // 
             // frmArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,6 +475,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmArticulo";
             this.Text = "...Mantenimiento Artículos...";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmArticulo_FormClosing);
             this.Load += new System.EventHandler(this.frmArticulo_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -483,8 +484,8 @@
             this.tabPage2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorIcono)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pxImagen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorIcono)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

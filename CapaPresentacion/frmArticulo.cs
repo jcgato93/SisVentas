@@ -374,5 +374,13 @@ namespace CapaPresentacion
             frmVistaCategoria_Articulo form = new frmVistaCategoria_Articulo();
             form.ShowDialog();//para mostrar el Formulario frmVistaCategoria_Articulo
         }
+
+        private void frmArticulo_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _Instancia = null;
+        }
+
+
+
     }
 }
