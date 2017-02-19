@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisVentas", "SisVentas\SisVentas.csproj", "{4EA75472-691E-4B75-BFE4-81D6DB858420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{6ACD568F-ABDD-482C-AEFB-50A846F95179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{6032743B-D4F9-4610-A6AE-EF239DCB3414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{A7EC224C-D561-49ED-A168-27D98CA4030C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA75472-691E-4B75-BFE4-81D6DB858420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA75472-691E-4B75-BFE4-81D6DB858420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA75472-691E-4B75-BFE4-81D6DB858420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA75472-691E-4B75-BFE4-81D6DB858420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACD568F-ABDD-482C-AEFB-50A846F95179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACD568F-ABDD-482C-AEFB-50A846F95179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACD568F-ABDD-482C-AEFB-50A846F95179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACD568F-ABDD-482C-AEFB-50A846F95179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6032743B-D4F9-4610-A6AE-EF239DCB3414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6032743B-D4F9-4610-A6AE-EF239DCB3414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6032743B-D4F9-4610-A6AE-EF239DCB3414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6032743B-D4F9-4610-A6AE-EF239DCB3414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EC224C-D561-49ED-A168-27D98CA4030C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EC224C-D561-49ED-A168-27D98CA4030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EC224C-D561-49ED-A168-27D98CA4030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EC224C-D561-49ED-A168-27D98CA4030C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
