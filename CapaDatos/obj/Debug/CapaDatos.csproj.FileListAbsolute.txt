@@ -3,3 +3,8 @@ c:\users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaDatos\b
 c:\users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
 c:\users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
 c:\users\juan camilo\documents\visual studio 2012\Projects\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaDatos\obj\Debug\CapaDatos.pdb

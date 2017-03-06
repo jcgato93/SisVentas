@@ -12,3 +12,17 @@ C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\SisVentas\b
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\SisVentas\bin\Debug\CapaDatos.dll
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\SisVentas\bin\Debug\CapaNegocio.pdb
 C:\Users\juan camilo\documents\visual studio 2012\Projects\SisVentas\SisVentas\bin\Debug\CapaDatos.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\SisVentas.exe.config
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\obj\Debug\SisVentas.exe
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\obj\Debug\SisVentas.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\SisVentas.exe
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\SisVentas.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaPresentacion.dll
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaNegocio.dll
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaDatos.dll
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaPresentacion.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaNegocio.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\bin\Debug\CapaDatos.pdb
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\obj\Debug\SisVentas.csprojResolveAssemblyReference.cache
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\obj\Debug\SisVentas.Properties.Resources.resources
+C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\SisVentas\obj\Debug\SisVentas.csproj.GenerateResource.Cache
