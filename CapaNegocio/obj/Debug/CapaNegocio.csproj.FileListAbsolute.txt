@@ -12,3 +12,10 @@ C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaNegocio\bin\Debug\CapaDat
 C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\GATO\Desktop\Visual Studio 2012\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaNegocio\obj\Debug\CapaNegocio.pdb

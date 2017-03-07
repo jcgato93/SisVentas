@@ -478,5 +478,19 @@ namespace CapaPresentacion
                 MensajeError("No hay fila para remover");
             }
         }
+
+
+        //Envia el Idventa del dataListado al Idventa de la instancia de FrmReporteFactura para poder
+        //asociarlos campos en el comprovante de venta
+        private void btnComprobante_Click(object sender, EventArgs e)
+        {
+            FrmReporteFactura frm = new FrmReporteFactura();
+
+            frm.Idventa = Convert.ToInt32(dataListado.CurrentRow.Cells["idventa"].Value);
+            frm.ShowDialog();
+          
+           
+
+        }
     }
 }

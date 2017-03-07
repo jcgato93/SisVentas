@@ -584,6 +584,7 @@
             this.btnComprobante.TabIndex = 11;
             this.btnComprobante.Text = "&Comprobante";
             this.btnComprobante.UseVisualStyleBackColor = true;
+            this.btnComprobante.Click += new System.EventHandler(this.btnComprobante_Click);
             // 
             // label9
             // 
