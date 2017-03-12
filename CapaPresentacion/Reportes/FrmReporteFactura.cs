@@ -12,18 +12,24 @@ namespace CapaPresentacion
 {
     public partial class FrmReporteFactura : Form
     {
+
         private int _Idventa;
 
         public int Idventa
         {
-            get { return _Idventa; }
-            set { _Idventa=value; }
+            get
+            { return _Idventa; }
+
+            set
+            { _Idventa = value; }
         }
 
         public FrmReporteFactura()
         {
             InitializeComponent();
         }
+
+
 
         private void FrmReporteFactura_Load(object sender, EventArgs e)
         {
@@ -38,9 +44,6 @@ namespace CapaPresentacion
             {
                 this.reportViewer1.RefreshReport();
             }
-            
-            
-            
         }
     }
 }

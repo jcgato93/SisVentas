@@ -486,7 +486,7 @@ namespace CapaPresentacion
         {
             FrmReporteFactura frm = new FrmReporteFactura();
 
-            frm.Idventa = Convert.ToInt32(dataListado.CurrentRow.Cells["idventa"].Value);
+            frm.Idventa = Convert.ToInt32(this.dataListado.CurrentRow.Cells["idventa"].Value);
             frm.ShowDialog();
           
            

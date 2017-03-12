@@ -151,10 +151,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Repotes\FrmReporteFactura.cs">
+    <Compile Include="Reportes\FrmReporteFactura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Repotes\FrmReporteFactura.Designer.cs">
+    <Compile Include="Reportes\FrmReporteFactura.Designer.cs">
       <DependentUpon>FrmReporteFactura.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -214,10 +214,10 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Repotes\FrmReporteFactura.resx">
+    <EmbeddedResource Include="Reportes\FrmReporteFactura.resx">
       <DependentUpon>FrmReporteFactura.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Repotes\rptComprobanteFactura.rdlc" />
+    <EmbeddedResource Include="Reportes\rptComprobanteFactura.rdlc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="dsPrincipal.xsc">
