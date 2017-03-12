@@ -1,0 +1,5 @@
+.NET FRAMEWORW 4.5
+
+REPORT VIEWER 
+
+SqlServer con la base de datos dbventas
