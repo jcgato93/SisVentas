@@ -70,5 +70,16 @@ namespace CapaNegocio
             obj.TextoBuscar = textobuscar;
             return obj.BuscarNombre(obj);
         }
+
+        //Metodo Mostrar El Stock que llama al Metodo de la clase DArticulo
+        //de la CapaDatos
+        //Generado para visualizacion de Stock
+        //12-marzo-2017 
+        //12:15 AM
+        public static DataTable Stock_Articulos()
+        {
+            return new DArticulo().Stock_Articulos();
+        }
+
     }
 }

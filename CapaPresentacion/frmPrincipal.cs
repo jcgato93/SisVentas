@@ -241,5 +241,20 @@ namespace CapaPresentacion
 
         }
 
+        private void stockDeArtículosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Consultas.FrmConsulta_Stock_Articulos frm = new Consultas.FrmConsulta_Stock_Articulos();
+
+            frm.MdiParent = this;
+            frm.Show();
+
+        }
+
+        private void backUpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBackUp frm = new FrmBackUp();
+
+            frm.ShowDialog();
+        }
     }
 }

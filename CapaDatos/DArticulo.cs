@@ -349,5 +349,34 @@ namespace CapaDatos
         }
 
 
+
+        //Metodo mostrar  
+        //12-marzo-2017    
+        //12:12 AM
+        //Se añade este metodo para llamar al spStock_articulo , para verificacion del Stock
+        public DataTable Stock_Articulos()
+        {
+            DataTable DtResultado = new DataTable("articulo");
+            SqlConnection SqlCon = new SqlConnection();
+            try
+            {
+                SqlCon.ConnectionString = Conexion.Cn;
+                SqlCommand SqlCmd = new SqlCommand();
+                SqlCmd.Connection = SqlCon;
+                SqlCmd.CommandText = "spstock_articulos";
+                SqlCmd.CommandType = CommandType.StoredProcedure;
+
+                SqlDataAdapter SqlDat = new SqlDataAdapter(SqlCmd);
+                SqlDat.Fill(DtResultado);
+
+
+            }
+            catch (Exception ex)
+            {
+                DtResultado = null;
+            }
+            return DtResultado;
+        }
+
     }
 }

@@ -45,6 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Consultas\FrmConsulta_Stock_Articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas\FrmConsulta_Stock_Articulos.Designer.cs">
+      <DependentUpon>FrmConsulta_Stock_Articulos.cs</DependentUpon>
+    </Compile>
     <Compile Include="dsPrincipal.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -55,6 +61,12 @@
     </Compile>
     <Compile Include="frmArticulo.Designer.cs">
       <DependentUpon>frmArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBackUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBackUp.Designer.cs">
+      <DependentUpon>FrmBackUp.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmCategoria.cs">
       <SubType>Form</SubType>
@@ -171,8 +183,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Consultas\FrmConsulta_Stock_Articulos.resx">
+      <DependentUpon>FrmConsulta_Stock_Articulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmArticulo.resx">
       <DependentUpon>frmArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBackUp.resx">
+      <DependentUpon>FrmBackUp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmCategoria.resx">
       <DependentUpon>FrmCategoria.cs</DependentUpon>

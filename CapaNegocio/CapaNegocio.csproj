@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="NArticulo.cs" />
+    <Compile Include="NBackUP.cs" />
     <Compile Include="NCategoria.cs" />
     <Compile Include="NCliente.cs" />
     <Compile Include="NIngreso.cs" />
