@@ -380,7 +380,10 @@ namespace CapaPresentacion
             _Instancia = null;
         }
 
-
-
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            FrmReporteArticulos frm = new FrmReporteArticulos();
+            frm.ShowDialog();
+        }
     }
 }

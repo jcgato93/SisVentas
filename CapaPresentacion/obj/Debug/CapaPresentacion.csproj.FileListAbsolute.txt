@@ -92,3 +92,4 @@ C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\o
 C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\RdlCompile.compiled
 C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
 C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\GATO\Documents\Visual Studio 2015\Projects\SisVentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteArticulos.resources
